@@ -1,0 +1,117 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .top-menu {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    text-align: right;
+  }
+  
+  .top-menu ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .top-menu ul li {
+    display: inline;
+    margin-right: 20px;
+  }
+  
+  .top-menu ul li a {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  .top-menu ul li a:hover {
+    text-decoration: underline;
+  }
+  
+  .content {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  aside {
+    padding: 20px;
+    margin-bottom: 20px;
+  }
+  
+  .first-aside {
+    background-color: #f0f0f0;
+    display: flex;
+    height: 200px;
+  }
+  
+  .second-aside {
+    background-color: #e0e0e0;
+    display: flex;
+    height: 300px;
+  }
+  
+  footer {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .footer-left {
+    flex: 1;
+  }
+  
+  .footer-right {
+    flex: 1;
+    text-align: right;
+  }
+  
+  img {
+    border: 2px solid #000;
+    border-radius: 10px;
+    max-width: 100%;
+  }
+  
+  .first-aside img {
+    border-radius: 50%;
+  }
+  
+  .circular-image {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    overflow: hidden;
+    margin: 0 auto;
+  }
+  
+  .circular-image img {
+    width: 100%;
+    height: auto;
+    display: block;
+  }
+  
+  .imagen-programador {
+    width: 200px;
+    height: 200px;
+  }
+
+  .logoU{
+    text-align: right;
+    width: 100%;
+    align-items: flex-end;
+    float: right;
+  }
+
+  .contenido{
+    padding-left: 20px;
+  }
+
+  .imagenlogo{
+    align-items: flex-end;
+    float: right;
+  }
+  
